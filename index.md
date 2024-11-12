@@ -192,16 +192,16 @@ SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements.
 {% endcomment %}
-"<p id=""requirements"">
+<p id="requirements">
   <strong>Requirements:</strong>
-  {% if online == ""false"" %}
+  {% if online == "false" %}
     PCs and an online environment will be provided but participants are welcome to bring their own laptop with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
-  In in order to continue working after the course, they should have a few specific software packages installed (listed <a href=""#setup"">below</a>). 
+  In in order to continue working after the course, they should have a few specific software packages installed (listed <a href="#setup">below</a>). 
   <br>
   Note for members of Newcastle University: Software should be installed from Software Center on Newcastle University managed Windows PCs and laptops. In case of difficulty please log a ticket to it.servicedesk@ncl.ac.uk and let us know at the contact details below if you still need help.
 </p>
@@ -215,7 +215,7 @@ special instructions.
 
 <p>
 <strong>Accessibility:</strong>
-  {% if online == ""false"" %} We are committed to making this workshop accessible to everybody. For workshops at a physical location, the workshop organizers have checked that:
+  {% if online == "false" %} We are committed to making this workshop accessible to everybody. For workshops at a physical location, the workshop organizers have checked that:
 
 The room is wheelchair / scooter accessible.
 Accessible restrooms are available.
